@@ -1,3 +1,20 @@
+# 在仓库根目录创建 .gitignore 文件
+touch .gitignore
+
+# 编辑 .gitignore，添加要忽略的无关文件夹（每行一个）
+echo ".autodl/" >> .gitignore
+echo "Hugging-Face/" >> .gitignore
+echo "LLaMA-Factory/" >> .gitignore
+echo "Models/" >> .gitignore
+echo "conda/" >> .gitignore
+echo "ragflow-main/" >> .gitignore
+
+# 把 .gitignore 也跟踪并提交（避免下次别人拉取时看到无关文件）
+git add .gitignore
+git commit -m "添加 .gitignore，忽略无关文件夹"
+git push origin main
+
+
 # 完全排除 LLaMA-Factory 和 ragflow-main 文件夹
 LLaMA-Factory/
 ragflow-main/
@@ -19,7 +36,6 @@ Thumbs.db
 *.log
 *.tmp
 *.bak
-
 
 # 排除Python相关缓存和编译文件
 __pycache__/
