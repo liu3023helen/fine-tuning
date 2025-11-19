@@ -1,0 +1,112 @@
+# 完全排除 LLaMA-Factory 和 ragflow-main 文件夹
+LLaMA-Factory/
+ragflow-main/
+
+# 排除存放基座模型的文件夹
+Hugging-Face/
+
+# 排除存放导出后合并模型的文件夹
+# LoRA 只是通过**低秩矩阵**调整原始模型的部分权重，而不直接修改原模型的权重。
+# 合并步骤将 LoRA 权重与原始模型权重融合生成一个完整的模型
+Models/
+
+
+# 排除系统/环境相关文件
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.log
+*.tmp
+*.bak
+
+# 排除Python相关缓存和编译文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 排除Conda/虚拟环境相关（体积大，可通过配置文件重建）
+miniconda3/
+conda/
+env/
+venv/
+ENV/
+*.conda
+*.tar.bz2  # 排除环境打包文件
+
+# 排除大文件类型（模型、数据、二进制文件等）
+*.bin
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.pb
+*.pkl
+*.npz
+*.npy
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.csv
+*.jsonl  # 大型JSON列表文件
+*.parquet
+*.sqlite
+*.db
+*.hdf5
+*.mp4
+*.jpg
+*.png
+*.jpeg
+*.gif
+*.bmp
+
+# 排除日志和临时目录
+logs/
+tf-logs/
+tmp/
+temp/
+.cache/
+.huggingface/
+.hub/
+.locks/
+.autodl/  # AutoDL平台相关配置
+
+# 排除个人配置文件
+.bash_history
+.bashrc
+.condarc
+.profile
+.viminfo
+.wget-hsts
+.zcompdump
+
+# 保留必要的配置文件（如果有以下文件，不要排除）
+!requirements.txt
+!environment.yml
+!pyproject.toml
+!setup.py
+!*.json  # 小型配置JSON文件（如果有大型JSON数据需单独排除）
+!*.yml
+!*.yaml
+!*.sh    # 脚本文件
+!*.py    # 代码文件
+!*.md    # 文档文件
