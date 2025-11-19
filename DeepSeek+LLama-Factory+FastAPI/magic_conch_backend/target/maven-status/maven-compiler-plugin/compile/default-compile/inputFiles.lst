@@ -1,0 +1,11 @@
+G:\tencentyun\DeepSeek+LoRA+FastAPI\magic_conch_backend\src\main\java\com\spongebob\magic_conch_backend\common\vo\PageParam.java
+G:\tencentyun\DeepSeek+LoRA+FastAPI\magic_conch_backend\src\main\java\com\spongebob\magic_conch_backend\config\WebConfig.java
+G:\tencentyun\DeepSeek+LoRA+FastAPI\magic_conch_backend\src\main\java\com\spongebob\magic_conch_backend\controller\chat\ChatController.java
+G:\tencentyun\DeepSeek+LoRA+FastAPI\magic_conch_backend\src\main\java\com\spongebob\magic_conch_backend\service\ChatService.java
+G:\tencentyun\DeepSeek+LoRA+FastAPI\magic_conch_backend\src\main\java\com\spongebob\magic_conch_backend\common\enums\ResultCode.java
+G:\tencentyun\DeepSeek+LoRA+FastAPI\magic_conch_backend\src\main\java\com\spongebob\magic_conch_backend\service\impl\chat\model\GenerateResponse.java
+G:\tencentyun\DeepSeek+LoRA+FastAPI\magic_conch_backend\src\main\java\com\spongebob\magic_conch_backend\service\impl\chat\ChatServiceImpl.java
+G:\tencentyun\DeepSeek+LoRA+FastAPI\magic_conch_backend\src\main\java\com\spongebob\magic_conch_backend\config\AiServiceConfig.java
+G:\tencentyun\DeepSeek+LoRA+FastAPI\magic_conch_backend\src\main\java\com\spongebob\magic_conch_backend\MagicConchBackendApplication.java
+G:\tencentyun\DeepSeek+LoRA+FastAPI\magic_conch_backend\src\main\java\com\spongebob\magic_conch_backend\common\vo\Result.java
+G:\tencentyun\DeepSeek+LoRA+FastAPI\magic_conch_backend\src\main\java\com\spongebob\magic_conch_backend\config\RestTemplateConfig.java
